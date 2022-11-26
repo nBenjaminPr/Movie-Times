@@ -1,0 +1,214 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+}
+h5{
+        color: white;
+}
+/*Menu*/
+#menu li > a{
+        font-size: 18px;
+        font-weight: bold;
+        color: #40798c;
+        padding: 5px 12px;
+}
+#menu li > a:hover{
+        color: #D73716;
+        
+}
+#menu{
+        background-color: #0f0326 ;
+}
+.carousel-inner{
+        max-height: 35rem;
+}
+#bg-secundary{
+        color: #40798c;
+        
+}
+#container-nav{
+        color: #D73716;
+}
+/*Seccion columna 1 */ 
+#nuestras-peliculas{
+        background-color: rgb(30, 30, 30);
+        color: white;
+        text-align: center;
+}
+#box-section {
+        padding: 0 0 20px 0;
+}
+h1 {
+        color: #fff;
+        padding: 10px 0;
+}
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        border: none;
+}
+ul {   
+        list-style: none;
+}
+#input-section{
+                background-color: #40798c;
+                border: solid 1px transparent;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: all 0.4s ease;
+                
+}
+#input-section:hover {
+        transform: translateY(-5px);
+        background-color: #D73716;
+        color: white;
+        box-shadow: 0 5px 10px #D73716(45, 206, 255, 0.5);
+}
+.button-section {
+        padding: 1rem 1rem;
+        border: solid 1px transparent;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        background-color: #40798c;
+}
+.button-section:hover {
+        transform: translateY(-5px);
+        background-color: #D73716;
+        color: white;
+        box-shadow: 0 5px 10px #D73716(45, 206, 255, 0.5);
+}
+.card-body{
+        background-color: #3f3f3f;
+}
+
+.li-column2{
+        cursor: pointer;
+}
+/*Fin Seccion columna 1  */
+/*Inicio de footer */ 
+#img-footer{
+        border-radius: 50%;
+}
+#informacion div > a{
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        padding: 5px 12px;
+        text-decoration: none;
+}
+#footer-galery{
+        padding-top: 70vh;
+}
+/*fin de footer */
+/*index-Pelis*/
+.image-buz{
+        margin-top: 100px;
+        padding: 20px;
+}
+.body-peliculas{
+        background-image: url(../assets/img/fondo-fhd.png) ;
+}
+/*Fin index-Pelis*/
+/* Css Gi */
+#title-contact{
+        background-color: #0F0326;
+        color: white;
+        padding: none;
+        margin: 0px;
+        font-size: large;
+        height: 50px;
+        width: 100vw;
+}
+.form-label{
+        color: white;
+}
+#container-contact{
+        background-color: rgba(0, 0, 0, .15);
+        height: 100vh;
+        width: 99vw;
+        margin:none;
+}
+#contact-button{
+        background-color: #40798c;
+}
+#imagge-film{
+        height: 100px;
+        width: 100 px;
+}
+/* Fin-Css Gi */
+/* START LOGIN FABIO */
+.bgBody{
+        background-image: url(/assets/img/login/fondo-01.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.bgForm{
+        background-color: rgba(0, 0, 0, .15);
+        border: 2px solid grey;
+}
+.bgImg{
+        border: 3px solid grey;
+}
+.bgModal{
+        background-color: rgba(0, 0, 0, .1);
+}
+.modalFondo{
+        background-image: url(/assets/img/login/fondo-01.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+}
+/* END LOGIN FABIO */
+/* START REGISTRATION FABIO */
+.bodyRegistro{
+
+        background-image: url(/assets/img/registro/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+.formRegistro{
+        background-color: rgba(0, 0, 0, .25);
+}
+/* END REGISTRATION FABIO */
+/* inicio galeria Stefan */
+#galeria .col-lg-4 {
+        margin: 0;
+        padding: 25px;
+}
+#galeria img{
+        width: 100%;
+        height: 250px;
+}
+#galeria img:hover{
+        border: 5px solid #d3d3d3;
+}
+#bodyGaleria {  
+        background-image: url(/assets/img/fondo-fhd.png);
+}
+/* fin galeria Stefan */
+/* inicio contacto*/
+.bodyContacto{
+        background-image: url(/assets/img/fondo-fhd.png);    
+}
+/*inicio nosotros*/
+.bodyAbout{
+        background-image: url(/assets/img/fondo-fhd.png);
+}
+/* fin nosotros */
+/* inicio eror 404 */
+.bodyError{
+        background-image: url(/assets/img/error/404.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100vw;
+        height: 90vh;
+}

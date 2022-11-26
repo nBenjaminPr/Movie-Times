@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Times</title>
+  <link rel="stylesheet" href="./css/styles.css"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Inicio del NavBar- Nicolas 28/07-->
+  <nav class="navbar fixed-top navbar-expand-md" id="menu" >
+    <div class="container px-2" id="container-nav">
+      <a class="navbar-brand" href="/index.html">
+        <p class="navbar-nav ms-auto mb-2 mb-lg-0 " >Movie Times</p>
+      </a>
+      <button class="navbar-toggler " id="bg-secundary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">MENU 
+      </button>  
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <!--  START LOGIN FABIO -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/html/login.html">Login</a>
+          </li>
+          <!-- END LOGIN FABIO -->
+          <!-- START REGISTRATION FABIO -->
+          <li class="nav-item">
+            <a class="nav-link" href="./html/registro.html">Suscripción</a>
+          </li>
+          <!-- END REGISTRATION FABIO -->
+          <!-- ---------INICIO PAG. CONTACTO------- GI 2/8 -->
+          <li class="nav-item">
+            <a class="nav-link" href="/html/Contactos.html">Contacto</a>
+          </li>
+          <!-- ---------FIN PAG. CONTACTO------- GI 2/8 -->
+          <!-- ------------ INICIO ABOUT US-----------GI 9/8 -->
+          <li class="nav-item">
+            <a class="nav-link" href="/html/Abous us.html">Sobre Nosotros</a>
+          </li>
+          <!-- ------------ FIN ABOUT US-----------GI 9/8 -->
+          <li class="nav-item">
+            <a class="nav-link" href="./html/Galeria.html">Galeria</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <!-- Fin del NavBar-->
+  <!-- Inicio del carousel- Nicolas 28/07-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="/assets/img/slider05.jpg" class="d-block w-100" alt="slide1" >
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="/assets/img/slider02.jpg" class="d-block w-100" alt="slide2">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="/assets/img/slider04.jpg" class="d-block w-100" alt="slide3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Fin del carousel-->
+  <!--comienza seccion- Nicolas 31/07-->
+  <section id="nuestras-peliculas">
+    <div class="container" id="box-section" >    
+      <div class="row">    
+        <div class="col-12 col-ms-10 col-lg-8  ">
+          <h2 class="py-4">Entradas Más Recientes</h2>
+          <div class="container">
+            <div class="card-columns">
+              <div class="card card-section">          
+                <img class="card-img-top" src="https://i.pinimg.com/originals/91/e8/b2/91e8b28b4cb04f5bd07d7fcd3bf08e16.jpg" height="500" width="200" alt="Card image cap">
+                <!-- https://i.pinimg.com/originals/91/e8/b2/91e8b28b4cb04f5bd07d7fcd3bf08e16.jpg -->
+                <div class="card-body" id="avengers"> 
+                  <h5 class="card-title">Avengers</h5>      
+                  <p class="card-text">
+                    El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial.
+                  </p>
+                  <a href="/html/Peli1.html">
+                    <button class="button-section">Ver mas</button>
+                  </a>
+                </div>  
+              </div>
+              <br><br>
+              <div class="card  card-section">      
+                <img class="card-img-top" src="https://i.pinimg.com/originals/17/fa/7c/17fa7c0b855376418d3b4240dcb41c32.jpg" height="500" width="200" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Malefica</h5>
+                  <p class="card-text">
+                    Maléfica es una bella joven de corazón puro que vive una vida idílica en su reino del bosque. Cuando un ejército invasor pone en peligro el reino, Maléfica se erige como la temible protectora del bosque. 
+                  </p>
+                  <a href="/html/Peli2.html">
+                    <button class="button-section">Ver mas</button>
+                  </a>
+                </div> 
+              </div>
+              <br><br>  
+              <div class="card card-section">      
+                <img class="card-img-top" src="https://i.pinimg.com/originals/cb/31/61/cb3161292fbe568e509370b7f6938d41.jpg" height="500" width="200" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Mohana</h5>
+                  <p class="card-text">
+                    Vaiana Waialiki es una joven entusiasta del mar y la única hija de un jefe marinero. Cuando los marineros de su aldea no pueden pescar ningún pez y todas las cosechas fallan, Vaiana descubre que el semidiós Maui causó el infortunio después de robar el corazón de la diosa Te Fiti.
+                  </p>
+                  <a href="/html/Peli3.html">
+                    <button class="button-section">Ver mas</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ---------- INICIO ERROR 404--------GI 7/8 -->
+          <nav aria-label="Page navigation example ">
+            <ul class="pagination justify-content-center py-4">
+              <li class="page-item disabled">
+                <a class="page-link">Anterior</a>
+              </li>
+              <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+              <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+              <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="/html/Error 404.html">Siguiente</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- ----------FIN ERROR 404--------- -->
+        </div>
+        <div class="col col-md-6 col-lg-2 py-4">
+          <form action="../../form-result.php" method="post" target="_blank">
+            <div>
+              Búsqueda de Peliculas: 
+              <input type="search" name="busquedamusica" placeholder="Pelicula, Año, empresa...">  
+              <input id="input-section" type="submit" value="Buscar">
+            </div>            
+          </form>
+          <br>
+          <div class="text-center">
+            <div>
+              <form action="">
+                
+                <ul>
+                  
+                  <li class="py-3">Categorias</li>
+                  <li class="li-column2">Accion</li>
+                  <li class="li-column2">Aventura</li>
+                  <li class="li-column2">Animadas</li>
+                  <li class="li-column2">Terror</li>
+                  <li class="li-column2">Canciones</li>
+                </ul>
+              </form>
+            </div>
+            <br>
+            <div class="d-none d-md-block">
+              <img src="./assets/img/thor.jpeg" alt="Publicidad">
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div>   -->
+  </section>
+  <!--Fin seccion-->
+  <!--comienza Footer- Nicolas 30/07-->
+  <footer >
+    <div class="container-fluid" >
+      <div class="row p-4 pb-2 bg-dark text-white">
+        <div class="col-ms-12 col-md-6 col-lg-3 text-center" >
+          <img src="/assets/img/movie times.jpeg" height="100" width="100" id="img-footer" alt="" id="logo-footer">
+        </div>
+        <div class="col-ms-12 col-md-6 col-lg-4 text-center">
+          <h5 class="mb-3">Redes sociales</h5>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Instagram</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Twitter</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="#">Facebook</a>
+          </div>
+        </div>
+        <div class="col-ms-12 col-md-6 col-lg-4 text-center">
+          <H5 class="mb-3">Dato Adicional</H5>
+          <div id="informacion">
+            <div class="mb-2">
+              <a href="">Informacion</a>
+            </div>
+            <div class="mb-2">
+              <a href="">Politica</a>
+            </div>
+            <div class="mb-2">
+              <a href="">terminos de concidiones</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <p class="text-white text-center"> Copyright - all right reserved 2022</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Fin Footer-->
+  <!-- Script bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
