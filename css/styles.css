@@ -31,6 +31,22 @@ h5{
         color: #D73716;
 }
 /*Seccion columna 1 */ 
+
+.contenedor-foto img{
+        padding: 20px;
+        width: 100%;
+        background-color:#3f3f3f;
+}
+
+.contenedor-foto {
+        max-width: 400px;
+        margin-right: 80px;
+}
+
+#card-all{
+        margin-left: 10vw;
+}
+
 #nuestras-peliculas{
         background-color: rgb(30, 30, 30);
         color: white;
